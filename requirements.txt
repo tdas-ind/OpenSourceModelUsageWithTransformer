@@ -1,0 +1,7 @@
+fastApi
+langchain-community
+pydantic
+transformers
+sentence-transformers
+langchain
+uvicorn
