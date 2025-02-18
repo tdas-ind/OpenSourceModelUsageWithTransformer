@@ -6,3 +6,6 @@ Key Features
 -	Batch Processing: Processes data in batches, significantly reducing embedding time.
 -	Customizable Client Wrapper: Includes a client-side wrapper that interacts with the API to embed either single queries or multiple documents.
 -	Vector Database Integration: Designed for direct integration with popular vector databases, enabling efficient storage and retrieval of embeddings.
+
+- Note: To use in vector database use this class LocalEmbedding() instead of HuggingFaceEmbedding("model-name")
+- You can also improve the LocalEmbedding() but putting everything in aync mode to handle concurrent requests
